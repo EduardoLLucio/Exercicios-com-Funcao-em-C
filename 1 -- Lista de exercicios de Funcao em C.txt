@@ -1,0 +1,139 @@
+
+1 -- Programa que leia o diâmetro de uma bola de futebol. Em seguida o
+programa deve, usando uma função criada por você, calcular o volume desta bola, cuja
+fórmula é Vol= Vol=
+			4
+			- π⋅r³    (sendo pi=3,141592 e r é o raio da esfera).
+			3
+
+
+----------------------------------------------------------------------------------------
+
+2 -- Programa que leia 2 valores X e Y, e que usando uma função,
+determine qual o maior através da fórmula:
+
+ MaiorXY= x+y+|x−y|						   
+ 	  _________
+	      2	
+
+
+----------------------------------------------------------------------------------------
+
+3 -- Programa em C que leia dois valores de entrada e determinar o maior destes
+valores usando uma função. Só que agora você vai colocar um if dentro da função.
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+						Funções com IF
+
+
+4 -- Programa em linguagem C que contenha uma função par:
+→ A função par deve receber um número e:
+retornar 1 (true) se for par
+else retornar 0 (false)
+O programa principal deve pedir ao usuário um número inteiro e em seguida, deve ser feita
+uma chamada à função par diretamente dentro do IF para imprimir na tela se o número for
+PAR ou IMPAR
+
+----------------------------------------------------------------------------------------
+
+5 -- Programa que leia 3 dados de entrada:
+→ Dois números inteiros
+→ Um caracter (char), correspondente a uma das operações:
+(A)dição
+(S)ubstração
+(M)ultiplicação
+(Q)uociente Inteiro
+(R)esto
+(P)otência
+
+----------------------------------------------------------------------------------------
+
+6 -- Algoritmo que leia dois números e através de uma função, determine se estes são
+múltiplos entre si.
+* Um número A é múltiplo de um número B quando o resto da divisão de A por B for zero
+** Um número B é múltiplo de um número A quando o resto da divisão de B por A for zero
+→ A função deve retornar 1 (true) se forem múltiplos, ou 0 (false) caso não sejam
+
+----------------------------------------------------------------------------------------
+
+7 -- Algoritmo que leia um ano de nascimento e usando uma função, retorne
+1(true) se este ano foi bissexto ou 0 (false) caso contrário.
+
+----------------------------------------------------------------------------------------
+
+8 -- Faça um programa que leia o salário bruto e do número de dependentes de um colaborador,
+calcule o salário líquido descontando o INSS e IRPF. Para cada cálculo deve ser criada uma
+função.
+O cálculo do INSS funciona assim:
+- primeiro calcula-se o INSS de acordo com a tabela a seguir
+ - porém, existe um valor máximo a ser pago que não pode ultrapassar a última faixa
+ portanto, se o salário for superior à última faixa da tabela, considere 11% de 5.189,82
+
+Faixa:			   |	Percentual INSS:
+até 1.556,94 		   |		8%
+de 1.556,95 até 2.594,92   |		9%
+de 2.594,93 até 5.189,82   |		11%
+Acima de 5.189,82 	   |		570,88
+
+A próxima função recebe 3 parâmetros de entrada, o Sal.Bruto, o Val.INSS e o número de
+dependentes. Para calcular devemos:
+→ calcular a dedução de R$ 189,59 para cada dependente
+→ a base de cálculo do IRPF será o salário bruto descontado do INSS e dessa dedução por
+dependentes
+→ com a base de cálculo, calculamos o valor do IRPF multiplicando a base de cálculo pelo
+percentual e depois descontando a parcela a deduzir, como base a tabela a seguir.
+
+
+Base de Cálculo (R$)			 Alíquota (%) 			Parcela a Deduzir
+Até 1.903,98 				     - 					 -
+De 1903,99 até 2.826,65                     7,5% 				142,80
+De 2.826,66 até 3.751,05 		    15% 				354,80
+De 3.751,06 até 4.664,68                    22,5% 				636,13
+Acima de 4.664,68                           27,5% 				869,36
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+				Funções com WHILE / FOR	
+
+
+9 -- Crie um programa em C que, através de uma função, calcule o fatorial de um número:
+O fatorial de um número é o produto de todos os inteiros de 1 até n, ou seja.:
+5! = 1 * 2 * 3 * 4 * 5 = 120
+
+
+----------------------------------------------------------------------------------------
+
+10 -- Elabore um programa em C que contenha uma função que receba um número inteiro como
+parâmetro e retorne a quantidade de divisores deste número:
+
+
+----------------------------------------------------------------------------------------
+
+11 -- Reaproveite o programa acima, elaborando um programa que contenha uma função que,
+usando o resultado da função definida na questão anterior, retorne 1 se o número for primo,
+0 se não for primo. Para determinar se o número é primo, é necessário saber quantos são os
+divisores:
+
+
+----------------------------------------------------------------------------------------
+
+
+12 -- Algoritmo que leia um número e usando uma divida-o por dois (sucessivamente) até
+que o resultado seja menor que 1. A função deve retornar para o programa principal a
+quantidade de divisões efetuadas:
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+		
+
+
+				
